@@ -1,3 +1,5 @@
+pub mod schema;
+
 use axum::{routing::get, serve, Router};
 use std::net::SocketAddr;
 
